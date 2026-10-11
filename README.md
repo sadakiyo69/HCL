@@ -1,4 +1,4 @@
-# GPUs vs CPUs (lab 1: architecture and performance revisited)
+# GPUs vs CPUs (lab 1: architecture and performance)
 The goal of this lab is to develop a deeper understanding of the fundamental architectural differences between GPUs and CPUs and to observe how these differences impact performance.
 
 ## Tasks (system info)
