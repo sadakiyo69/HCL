@@ -16,7 +16,7 @@ The goal of this lab is to develop a deeper understanding of the fundamental arc
 5. Compare CPU and GPU execution with changing block sizes (as low and as high, e.g., 512, 2048, so that you can gather performance trends) and data sizes (up to and including 50 billion)
 6. Plot measurements and speedups (block sizes and increasing data)
 7. Compile and run race condition exercise
-8. Solve the race condition so the test is PASSED
+8. Pass the race condition test by identifying the bug in the _countAboveThreshold_ CUDA kernel and solving it.
 
 ## Wrap up and deliverables
 1. Create blog post (or GitHub repo)
