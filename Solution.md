@@ -137,8 +137,6 @@ if (i < numElements && A[i] > threshold) {
 
 You have to replace the (*count)++ incrementation with the atomicAdd(count, 1).
 Otherwise the part of the memory that increments the value will be overwritten, this way the incerement correctly works, but atomicAdd will significantly slow down the execution time if we scale the number of elements up.
-
-
 ## Wrap up and deliverables
 1. Create blog post (or GitHub repo)
 2. Describe main applications for GPUs (graphics and AI)
